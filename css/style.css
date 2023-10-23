@@ -1,0 +1,199 @@
+* {
+	
+  box-sizing: border-box; 
+ 
+}
+
+body {
+  margin: 0;
+   border:5px solid gray;
+}
+
+.kenarlık {
+	background-color:white; opacity: 0.7;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+/*menü özellikleri tanımlandı*/
+.menu {
+	
+	border: 5px solid gray;
+  overflow: hidden;
+  background-color: white; opacity: 0.5;
+}
+
+
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+
+.menu a:hover {
+  background-color: #ddd;
+  color: #ddd;
+}
+
+
+/*sol sütunun oranı ve konumu belirlendi*/
+.solsutun{   
+
+  float: left;
+  width: 75%;
+}
+
+/* sol sütunun oranı ve konumu  belirlendi */
+.sagsutun {
+  float: left;
+  width: 25%;
+  height:100%;
+  padding-left: 20px;
+}
+
+
+
+/* kenarlarına özellik verildi renk kalınlık ve üstten boşluk bırakıldı*/
+.duzen {
+	
+  border: 5px solid gray;
+  padding: 20px;
+  margin-top: 20px;
+}
+/*üstten boşluk bırakıldı görsellerdeki sol sütun için ayarlandı*/
+.duzen2 {
+	
+
+  margin-top: 20px;
+}
+/*  */
+.sayfaduzeni:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* alt satır düzeni  */
+.footer {
+  padding: 20px;
+  text-align: center;
+  
+  margin-top: 20px;
+}
+
+
+/*toplam sayfa birleşimi*/ {
+  .solsutun, .sagsutun {   
+    width: 100%;
+    padding: 0;
+	
+  }
+}
+
+
+
+/*görsellerin konumlandırması ve çerçeve ayarları yapıldı*/
+div.galeri {
+  border: 1px solid gray;
+}
+
+div.galeri:hover {
+  border: 1px solid gray;
+}
+
+div.galeri img {
+  width: 100%;
+  height: auto;
+}
+/*görsellerin altındaki yazı ayarları yapıldı*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*görsele tıklayınca kendi boyutunda (büyük boyutta) açma ayarları yapıldı*/
+.hassasiyet {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+ {
+  .hassasiyet {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+ {
+  .hassasiyet {
+    width: 100%;
+  }
+}
+
+.düzenleme:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*iletişim formunun tabanı*/
+.tasarim1{
+    margin: auto;
+    width: 450px;
+    padding: 100px;
+    border-radius: 20px;
+	background-color : #black;
+    
+/* Firefox v3.6+ */
+background-image:-moz-linear-gradient(50% -19% -90deg,rgb(220,115,255) 0%,rgb(255,191,255) 100%); 
+/* safari v4.0+ and by Chrome v3.0+ */
+background-image:-webkit-gradient(linear,50% -19%,50% 81%,color-stop(0, rgb(220,115,255)),color-stop(1, rgb(255,191,255)));
+/* Chrome v10.0+ and by safari nightly build*/
+background-image:-webkit-linear-gradient(-90deg,rgb(220,115,255) 0%,rgb(255,191,255) 100%);
+/* Opera v11.10+ */
+background-image:-o-linear-gradient(-90deg,rgb(220,115,255) 0%,rgb(255,191,255) 100%);
+/* IE v10+ */
+background-image:-ms-linear-gradient(-90deg,rgb(220,115,255) 0%,rgb(255,191,255) 100%);
+
+}
+ /*label boyutları rengi*/
+.tasarim1 label
+{
+    display: block;
+    letter-spacing: 3px;
+    margin-top: 10px;
+	
+}
+ /*textboxların düzeni*/
+.tasarim1 input[type="text"]
+{
+    width: 250px;
+    padding: 3px 5px;
+    color: #black;
+    box-sizing: border-box;
+}
+ /*textboxa tıklanınca oluşan renk ve ayarlar*/
+.tasarim1 input[type="text"]:focus{
+    
+    background: no-repeat #ddd;
+    background-size: 25px 25px;
+    padding-left: 30px;
+}
+ /*buton tasarımı*/
+.tasarim1 input[type="submit"]{
+    margin-top: 20px;
+    background: #ddd;
+    border: 2px solid #black;
+    padding: 5px 10px;
+    color: #black;
+}
+
